@@ -6,8 +6,8 @@ html{
     }
 
     .container{
-        width: 80%;
-        height: 100hv;
+        width: auto;
+        height: auto;
         padding: 20px;
         border: 1cm solid brown;
         margin: auto;
@@ -15,8 +15,8 @@ html{
     }
 
     .box{
-        width: 10em;
-        height: 5em;
+        width: auto;
+        height: auto;
         font-size: 12pt;
         border: 2mm dashed lawngreen;
     }
