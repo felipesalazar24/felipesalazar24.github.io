@@ -21,3 +21,8 @@ html{
         font-size: 12pt;
         border: 2mm dashed lawngreen;
     }
+
+    .tittle{
+        color: red;
+        background-color: rgb(15, 187, 29);
+    }
