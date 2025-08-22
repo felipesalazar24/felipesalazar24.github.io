@@ -3,11 +3,7 @@ html{
 }
     body{
         font-size: 1rem;
-        background-image: url("assets/\(n\)\ 1.png");
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        background-attachment: fixed;
+        background-color: aquamarine;
         
     }
 
