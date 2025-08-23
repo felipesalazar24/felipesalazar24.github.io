@@ -8,9 +8,7 @@
 </head>
 <body>
     <h1 style="text-align: center;"> Pokedex Completa (Felipe Salazar)</h1>
-    <!-- <div style="text-align: center;">
-        <img src="assets/AdobeStock_449975564b.jpg" width="300" height="300">
-    </div> -->
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="assets/logo_pkmn.webp" width="50" height="40" alt="Print3D"></a>
@@ -54,25 +52,163 @@
             </div>
         </div>
     </nav>
-    <div class="col-6 col-md-4 col-lg-2 mb-4">
-        <div class="card text-center">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" class="card-img-top" alt="Pikachu">
-            <div class="card-body">
-                <h5 class="card-title">Pikachu</h5>
-                <p class="card-text">Tipo: Eléctrico</p>
-                <a href="#" class="btn btn-outline-primary" onclick="mostrarPokemon('pikachu')">Ver más</a>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="card text-center">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/200px-Bulbasaur.png"
+                        class="card-img-top" alt="Bulbasaur">
+                    <div class="card-body">
+                        <h5 class="card-title">Bulbasaur</h5>
+                        <p class="card-text">Tipo: <img src="assets/Tipo_planta_SL.png" alt="tipo planta"><img
+                                src="assets/Tipo_veneno_SL.png" alt="tipo veneno"></p>
+                        <a href="#" class="btn btn-outline-primary" onclick="mostrarPokemon('Bulbasaur')">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/86/latest/20190406151903/Ivysaur.png/200px-Ivysaur.png"
+                        class="card-img-top" alt="Ivysaur">
+                    <div class="card-body">
+                        <h5 class="card-title">Ivysaur</h5>
+                        <p class="card-text">Tipo: <img src="assets/Tipo_planta_SL.png" alt="tipo planta"><img
+                                src="assets/Tipo_veneno_SL.png" alt="tipo veneno"></p>
+                        <a href="#" class="btn btn-outline-primary" onclick="mostrarPokemon('Ivysaur')">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/73/latest/20190406151906/Venusaur.png/200px-Venusaur.png"
+                        class="card-img-top" alt="Venusaur">
+                    <div class="card-body">
+                        <h5 class="card-title">Venusaur</h5>
+                        <p class="card-text">Tipo: <img src="assets/Tipo_planta_SL.png" alt="tipo planta"><img
+                                src="assets/Tipo_veneno_SL.png" alt="tipo veneno"></p>
+                        <a href="#" class="btn btn-outline-primary" onclick="mostrarPokemon('Venusaur')">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/56/latest/20200307023245/Charmander.png/200px-Charmander.png"
+                        class="card-img-top" alt="Charmander">
+                    <div class="card-body">
+                        <h5 class="card-title">Charmander</h5>
+                        <p class="card-text">Tipo: <img src="assets/Tipo_fuego_SL.png" alt="tipo fuego"></p>
+                        <a href="#" class="btn btn-outline-primary" onclick="mostrarPokemon('Charmander')">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/56/latest/20200307023245/Charmander.png/200px-Charmander.png"
+                        class="card-img-top" alt="Charmaleon">
+                    <div class="card-body">
+                        <h5 class="card-title">Charmaleon</h5>
+                        <p class="card-text">Tipo: <img src="assets/Tipo_fuego_SL.png" alt="tipo fuego"></p>
+                        <a href="#" class="btn btn-outline-primary" onclick="mostrarPokemon('Charmaleon')">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center">
+                    <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/56/latest/20200307023245/Charmander.png/200px-Charmander.png"
+                        class="card-img-top" alt="Charizard">
+                    <div class="card-body">
+                        <h5 class="card-title">Charizard</h5>
+                        <p class="card-text">Tipo: <img src="assets/Tipo_fuego_SL.png" alt="tipo fuego"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"></p>
+                        <a href="#" class="btn btn-outline-primary" onclick="mostrarPokemon('Charizard')">Ver más</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div id="pikachu" class="container pokemon-section mt-4">
+    <div id="Bulbasaur" class="container pokemon-section mt-4">
         <button class="btn btn-secondary mb-3" onclick="volver()">← Volver a la Pokédex</button>
-        <h2>Pikachu</h2>
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu">
-        <p><strong>Tipo:</strong> Eléctrico</p>
-        <p><strong>Fortalezas:</strong> Agua, Volador</p>
-        <p><strong>Debilidades:</strong> Tierra</p>
+        <h2>Bulbasaur</h2>
+        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/200px-Bulbasaur.png" alt="Bulbasaur">
+        <p><strong>Evolucion:</strong> Nivel 16</p>
+        <p><strong>Tipo:</strong> <img src="assets/Tipo_planta_SL.png" alt="tipo planta"><img src="assets/Tipo_veneno_SL.png" alt="tipo veneno"></p>
+        <p><strong>Fortalezas:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"></p>
+        <p><strong>Superdébil:</strong> <em>Ninguno</em></p>
+        <p><strong>Débil a:</strong> <img src="assets/Tipo_fuego_SL.png" alt="tipo fuego"> <img src="assets/Tipo_hielo_SL.png" alt="tipo hielo"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"> <img src="assets/Tipo_psíquico_SL.png" alt="tipo psiquico"></p>
+        <p><strong>Daño normal:</strong> <img src="assets/Tipo_acero_SL.png" alt="tipo acero"> <img src="assets/Tipo_bicho_SL.png" alt="tipo bicho"> <img src="assets/Tipo_dragón_SL.png" alt="tipo dragon"> <img src="assets/Tipo_fantasma_SL.png" alt="tipo fantasma"> <img src="assets/Tipo_normal_SL.png" alt="tipo normal"> <img src="assets/Tipo_roca_SL.png" alt=" tipo roca"> <img src="assets/Tipo_siniestro_SL.png" alt="tipo siniestro"> <img src="assets/Tipo_tierra_SL.png" alt="tipo tierra"> <img src="assets/Tipo_veneno_SL.png" alt="tipo veneno"></p>
+        <p><strong>Resistente a:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_eléctrico_SL.png" alt="tipo electrico"> <img src="assets/Tipo_hada_SL.png" alt="tipo hada"> <img src="assets/Tipo_lucha_SL.png" alt="tipo lucha"></p>
+        <p><strong>Superresistente a:</strong> <img src="assets/Tipo_planta_SL.png" alt="tipo planta"></p>
+        <p><strong>Inmune a:</strong> <em>Ninguno</em></p>
     </div>
-
+    <div id="Ivysaur" class="container pokemon-section mt-4">
+        <button class="btn btn-secondary mb-3" onclick="volver()">← Volver a la Pokédex</button>
+        <h2>Ivysaur</h2>
+        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/86/latest/20190406151903/Ivysaur.png/200px-Ivysaur.png" alt="Ivysaur">
+        <p><strong>Evolucion:</strong> Nivel 32</p>
+        <p><strong>Tipo:</strong> <img src="assets/Tipo_planta_SL.png" alt="tipo planta"><img src="assets/Tipo_veneno_SL.png" alt="tipo veneno"></p>
+        <p><strong>Fortalezas:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"></p>
+        <p><strong>Superdébil:</strong> <em>Ninguno</em></p>
+        <p><strong>Débil a:</strong> <img src="assets/Tipo_fuego_SL.png" alt="tipo fuego"> <img src="assets/Tipo_hielo_SL.png" alt="tipo hielo"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"> <img src="assets/Tipo_psíquico_SL.png" alt="tipo psiquico"></p>
+        <p><strong>Daño normal:</strong> <img src="assets/Tipo_acero_SL.png" alt="tipo acero"> <img src="assets/Tipo_bicho_SL.png" alt="tipo bicho"> <img src="assets/Tipo_dragón_SL.png" alt="tipo dragon"> <img src="assets/Tipo_fantasma_SL.png" alt="tipo fantasma"> <img src="assets/Tipo_normal_SL.png" alt="tipo normal"> <img src="assets/Tipo_roca_SL.png" alt=" tipo roca"> <img src="assets/Tipo_siniestro_SL.png" alt="tipo siniestro"> <img src="assets/Tipo_tierra_SL.png" alt="tipo tierra"> <img src="assets/Tipo_veneno_SL.png" alt="tipo veneno"></p>
+        <p><strong>Resistente a:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_eléctrico_SL.png" alt="tipo electrico"> <img src="assets/Tipo_hada_SL.png" alt="tipo hada"> <img src="assets/Tipo_lucha_SL.png" alt="tipo lucha"></p>
+        <p><strong>Superresistente a:</strong> <img src="assets/Tipo_planta_SL.png" alt="tipo planta"></p>
+        <p><strong>Inmune a:</strong> <em>Ninguno</em></p>
+    </div>
+    <div id="Venusaur" class="container pokemon-section mt-4">
+        <button class="btn btn-secondary mb-3" onclick="volver()">← Volver a la Pokédex</button>
+        <h2>Venusaur</h2>
+        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/73/latest/20190406151906/Venusaur.png/200px-Venusaur.png" alt="Venusaur">
+        <p><strong>Evolucion:</strong> <em>Sin Evolucion</em></p>
+        <p><strong>Tipo:</strong> <img src="assets/Tipo_planta_SL.png" alt="tipo planta"><img src="assets/Tipo_veneno_SL.png" alt="tipo veneno"></p>
+        <p><strong>Fortalezas:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"></p>
+        <p><strong>Superdébil:</strong> <em>Ninguno</em></p>
+        <p><strong>Débil a:</strong> <img src="assets/Tipo_fuego_SL.png" alt="tipo fuego"> <img src="assets/Tipo_hielo_SL.png" alt="tipo hielo"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"> <img src="assets/Tipo_psíquico_SL.png" alt="tipo psiquico"></p>
+        <p><strong>Daño normal:</strong> <img src="assets/Tipo_acero_SL.png" alt="tipo acero"> <img src="assets/Tipo_bicho_SL.png" alt="tipo bicho"> <img src="assets/Tipo_dragón_SL.png" alt="tipo dragon"> <img src="assets/Tipo_fantasma_SL.png" alt="tipo fantasma"> <img src="assets/Tipo_normal_SL.png" alt="tipo normal"> <img src="assets/Tipo_roca_SL.png" alt=" tipo roca"> <img src="assets/Tipo_siniestro_SL.png" alt="tipo siniestro"> <img src="assets/Tipo_tierra_SL.png" alt="tipo tierra"> <img src="assets/Tipo_veneno_SL.png" alt    ="tipo veneno"></p>
+        <p><strong>Resistente a:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_eléctrico_SL.png" alt="tipo electrico"> <img src="assets/Tipo_hada_SL.png" alt="tipo hada"> <img src="assets/Tipo_lucha_SL.png" alt="tipo lucha"></p>
+        <p><strong>Superresistente a:</strong> <img src="assets/Tipo_planta_SL.png" alt="tipo planta"></p>
+        <p><strong>Inmune a:</strong> <em>Ninguno</em></p>
+    </div>
+    <div id="Charmander" class="container pokemon-section mt-4">
+        <button class="btn btn-secondary mb-3" onclick="volver()">← Volver a la Pokédex</button>
+        <h2>Charmander</h2>
+        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/73/latest/20190406151906/Venusaur.png/200px-Venusaur.png" alt="Charmander">
+        <p><strong>Evolucion:</strong> <em>Nivel 16</em></p>
+        <p><strong>Tipo:</strong> <img src="assets/Tipo_fuego_SL.png" alt="tipo fuego"></p>
+        <p><strong>Fortalezas:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"></p>
+        <p><strong>Superdébil:</strong> <em>Ninguno</em></p>
+        <p><strong>Débil a:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_roca_SL.png" alt="tipo roca"> <img src="assets/Tipo_tierra_SL.png" alt="tipo tierra"></p>
+        <p><strong>Daño normal:</strong><img src="assets/Tipo_dragón_SL.png" alt="tipo dragon"> <img src="assets/Tipo_eléctrico_SL.png" alt="tipo electrico"> <img src="assets/Tipo_fantasma_SL.png" alt="tipo fantasma"> <img src="assets/Tipo_lucha_SL.png" alt="tipo lucha"><img src="assets/Tipo_normal_SL.png" alt="tipo normal"> <img src="assets/Tipo_psíquico_SL.png" alt="tipo psiquico"> <img src="assets/Tipo_siniestro_SL.png" alt="tipo siniestro"> <img src="assets/Tipo_veneno_SL.png" alt="tipo veneno"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"></p>
+        <p><strong>Resistente a:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_eléctrico_SL.png" alt="tipo electrico"> <img src="assets/Tipo_hada_SL.png" alt="tipo hada"> <img src="assets/Tipo_lucha_SL.png" alt="tipo lucha"></p>
+        <p><strong>Superresistente a:</strong> <img src="assets/Tipo_planta_SL.png" alt="tipo planta"></p>
+        <p><strong>Inmune a:</strong> <em>Ninguno</em></p>
+    </div>
+    <div id="Venusaur" class="container pokemon-section mt-4">
+        <button class="btn btn-secondary mb-3" onclick="volver()">← Volver a la Pokédex</button>
+        <h2>Venusaur</h2>
+        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/73/latest/20190406151906/Venusaur.png/200px-Venusaur.png" alt="Venusaur">
+        <p><strong>Evolucion:</strong> <em>Sin Evolucion</em></p>
+        <p><strong>Tipo:</strong> <img src="assets/Tipo_planta_SL.png" alt="tipo planta"><img src="assets/Tipo_veneno_SL.png" alt="tipo veneno"></p>
+        <p><strong>Fortalezas:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"></p>
+        <p><strong>Superdébil:</strong> <em>Ninguno</em></p>
+        <p><strong>Débil a:</strong> <img src="assets/Tipo_fuego_SL.png" alt="tipo fuego"> <img src="assets/Tipo_hielo_SL.png" alt="tipo hielo"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"> <img src="assets/Tipo_psíquico_SL.png" alt="tipo psiquico"></p>
+        <p><strong>Daño normal:</strong> <img src="assets/Tipo_acero_SL.png" alt="tipo acero"> <img src="assets/Tipo_bicho_SL.png" alt="tipo bicho"> <img src="assets/Tipo_dragón_SL.png" alt="tipo dragon"> <img src="assets/Tipo_fantasma_SL.png" alt="tipo fantasma"> <img src="assets/Tipo_normal_SL.png" alt="tipo normal"> <img src="assets/Tipo_roca_SL.png" alt=" tipo roca"> <img src="assets/Tipo_siniestro_SL.png" alt="tipo siniestro"> <img src="assets/Tipo_tierra_SL.png" alt="tipo tierra"> <img src="assets/Tipo_veneno_SL.png" alt    ="tipo veneno"></p>
+        <p><strong>Resistente a:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_eléctrico_SL.png" alt="tipo electrico"> <img src="assets/Tipo_hada_SL.png" alt="tipo hada"> <img src="assets/Tipo_lucha_SL.png" alt="tipo lucha"></p>
+        <p><strong>Superresistente a:</strong> <img src="assets/Tipo_planta_SL.png" alt="tipo planta"></p>
+        <p><strong>Inmune a:</strong> <em>Ninguno</em></p>
+    </div>
+    <div id="Venusaur" class="container pokemon-section mt-4">
+        <button class="btn btn-secondary mb-3" onclick="volver()">← Volver a la Pokédex</button>
+        <h2>Venusaur</h2>
+        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/73/latest/20190406151906/Venusaur.png/200px-Venusaur.png" alt="Venusaur">
+        <p><strong>Evolucion:</strong> <em>Sin Evolucion</em></p>
+        <p><strong>Tipo:</strong> <img src="assets/Tipo_planta_SL.png" alt="tipo planta"><img src="assets/Tipo_veneno_SL.png" alt="tipo veneno"></p>
+        <p><strong>Fortalezas:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"></p>
+        <p><strong>Superdébil:</strong> <em>Ninguno</em></p>
+        <p><strong>Débil a:</strong> <img src="assets/Tipo_fuego_SL.png" alt="tipo fuego"> <img src="assets/Tipo_hielo_SL.png" alt="tipo hielo"> <img src="assets/Tipo_volador_SL.png" alt="tipo volador"> <img src="assets/Tipo_psíquico_SL.png" alt="tipo psiquico"></p>
+        <p><strong>Daño normal:</strong> <img src="assets/Tipo_acero_SL.png" alt="tipo acero"> <img src="assets/Tipo_bicho_SL.png" alt="tipo bicho"> <img src="assets/Tipo_dragón_SL.png" alt="tipo dragon"> <img src="assets/Tipo_fantasma_SL.png" alt="tipo fantasma"> <img src="assets/Tipo_normal_SL.png" alt="tipo normal"> <img src="assets/Tipo_roca_SL.png" alt=" tipo roca"> <img src="assets/Tipo_siniestro_SL.png" alt="tipo siniestro"> <img src="assets/Tipo_tierra_SL.png" alt="tipo tierra"> <img src="assets/Tipo_veneno_SL.png" alt    ="tipo veneno"></p>
+        <p><strong>Resistente a:</strong> <img src="assets/Tipo_agua_SL.png" alt="tipo agua"> <img src="assets/Tipo_eléctrico_SL.png" alt="tipo electrico"> <img src="assets/Tipo_hada_SL.png" alt="tipo hada"> <img src="assets/Tipo_lucha_SL.png" alt="tipo lucha"></p>
+        <p><strong>Superresistente a:</strong> <img src="assets/Tipo_planta_SL.png" alt="tipo planta"></p>
+        <p><strong>Inmune a:</strong> <em>Ninguno</em></p>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
